@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYbook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="img/logo.png" alt="logo image" class="logo">
+            </a>
+            <ul>
+                <li><img src="img/notification.png" alt="notification-icon"></li>
+                <li><img src="img/inbox.png" alt="notification-icon"></li>
+                <li><img src="img/video.png" alt="notification-icon"></li>
+                
+            </ul>
+        </div>    
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="img/search.png" alt="Search">
+                <input type="text" placeholder="Type to Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="img/aj3.jpg" alt="profile picture">
+            </div>
+        </div>
+<!--------------------settings-menu------------->
+        <div class="settings-menu">
+
+            <div class="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile ">
+                    <img src="img/aj3.jpg">
+                    <div>
+                        <p>Ajay Shukla</p>
+                        <a href="profile.html">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="img/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve.</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="img/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="img/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="img/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="img/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="img/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="img/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="img/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="img/arrow.png" width="10px"></a>
+                </div>
+            </div>
+            
+        </div>
+</nav>
+<div class="container">
+<!--------------------left-sidebar------------->
+    <div class="left-sidebar">
+        <div class="imp-links">
+            <a href="#"><img src="img/news.png" alt="news"> Latest News</a>
+            <a href="#"><img src="img/friends.png" alt="friends"> Friends</a> 
+            <a href="#"><img src="img/group.png" alt="group"> Group</a> 
+            <a href="#"><img src="img/marketplace.png" alt="marketplace"> Marketplace</a> 
+            <a href="#"><img src="img/watch.png" alt="watch"> Watch</a>  
+            <a href="#">See More</a>            
+        </div>
+        <div class="shortcut-links">
+            <p>Your Shortcuts</p>
+            <a href="#"><img src="img/shortcut-1.png"> Web Developers</a>
+            <a href="#"><img src="img/shortcut-2.png"> Web Design course</a>
+            <a href="#"><img src="img/shortcut-3.png"> Full Stack Developement</a>
+            <a href="#"><img src="img/shortcut-4.png"> Website Experts</a>
+        </div>
+    </div>
+<!--------------------main-content ------------->
+    <div class="main-content" >
+
+        <div class="story-gallery">
+            <div class="story story1">
+                <img src="img/upload.png">
+                <p>Post Story</p>
+            </div>
+            <div class="story story2">
+                <img src="img/sbh1.jpg">
+                <p>Sabhya Sharma</p>
+            </div>
+            <div class="story story3">
+                <img src="img/krr.jpg">
+                <p>Kritika Thakur</p>
+            </div>
+            <div class="story story4">
+                <img src="img/ish.jpg">
+                <p>Isha Thakur</p>
+            </div>
+            <div class="story story5">
+                <img src="img/aj1.jpg">
+                <p>Shukla</p>
+            </div>
+        </div>
+        <div class="write-post-container">
+            <div class="user-profile">
+                <img src="img/aj3.jpg">
+                <div>
+                    <p>Ajay Shukla</p>
+                    <small>Public<img src="img/arrow.png"></small>
+                </div>
+            </div>
+            <div class="post-input-container">
+                <textarea rows="3" placeholder="What's in your mind, Ajay?"></textarea>
+                <div class="add-post-links">
+                    <a href="#"><img src="img/live-video.png"> Live Video</a>
+                    <a href="#"><img src="img/photo.png"> Photo/Video</a>
+                    <a href="#"><img src="img/feeling.png"> Feeling/Activity</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="img/aj3.jpg">
+                    <div>
+                        <p>Ajay Shukla</p>
+                        <span>Augest 28 2021, 16:37 pm</span>
+                    </div>
+                </div>
+                <img src="img/more.png" height="25px">
+            </div>
+
+            <p class="post-text">below is my post <a href="#">abc</a></p>
+            <img src="img/feed-image-1.png" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="img/like-blue.png">120</div>
+                    <div><img src="img/comments.png">20</div>
+                    <div><img src="img/share.png">2</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="img/aj3.jpg" width="30px">
+                    <img src="img/arrow.png" width="18px">
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="img/sbh1.jpg" height="50px">
+                    <div>
+                        <p>Sabhya Sharma</p>
+                        <span>Augest 28 2021, 16:35 pm</span>
+                    </div>
+                </div>
+                <img src="img/more.png" height="25px">
+            </div>
+
+            <p class="post-text">below is my post <a href="#">abc</a></p>
+            <img src="img/feed-image-2.png" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="img/like-blue.png">120</div>
+                    <div><img src="img/comments.png">20</div>
+                    <div><img src="img/share.png">2</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="img/aj3.jpg" width="30px">
+                    <img src="img/arrow.png" width="18px">
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="img/krr.jpg" height="50px">
+                    <div>
+                        <p>Kritika Thakur</p>
+                        <span>Augest 28 2021, 16:37 pm</span>
+                    </div>
+                </div>
+                <img src="img/more.png" height="25px">
+            </div>
+
+            <p class="post-text">below is my post <a href="#">abc</a></p>
+            <img src="img/feed-image-3.png" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="img/like-blue.png">120</div>
+                    <div><img src="img/comments.png">20</div>
+                    <div><img src="img/share.png">2</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="img/aj3.jpg" width="30px">
+                    <img src="img/arrow.png" width="18px">
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="img/ish.jpg" width="50px">
+                    <div>
+                        <p>Isha Thakur</p>
+                        <span>Augest 28 2021, 16:36 pm</span>
+                    </div>
+                </div>
+                <img src="img/more.png" height="25px">
+            </div>
+
+            <p class="post-text">below is my post <a href="#">abc</a></p>
+            <img src="img/feed-image-4.png" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="img/like.png">120</div>
+                    <div><img src="img/comments.png">20</div>
+                    <div><img src="img/share.png">2</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="img/aj3.jpg" width="30px">
+                    <img src="img/arrow.png" width="18px">
+                </div>
+            </div>
+        </div>
+        <button class="load-more-btn">Load More</button>
+    </div>
+<!--------------------right-sidebar------------->
+    <div class="right-sidebar">
+        <div class="sidebar-title">
+            <h4>Events</h4>
+            <a href="#">See All</a>
+        </div>
+        <div class="event">
+            <div class="left-event">
+                <h3>18</h3>
+                <span>Augest</span>
+            </div>
+            <div class="right-event">
+                <h4>Social Media</h4>
+                <p><img src="img/location.png"><span>HPU Tech Park , Shimla</span></p>
+                <a href="#">More Info</a>
+            </div>
+            
+        </div>    
+            <div class="event">
+                <div class="left-event">
+                    <h3>23</h3>
+                    <span>Augest</span>
+                </div>
+                <div class="right-event">
+                    <h4>Cricket</h4>
+                    <p><img src="img/location.png"><span>HPCA stadium , Dharamshala</span></p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="img/advertisement.png" class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/sbh1.jpg">
+                </div>
+                <p>Sabhya Sharma</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/krr.jpg">
+                </div>
+                <p>Kritika Thakur</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/ish.jpg">
+                </div>
+                <p>Isha Thakur</p>
+            </div>
+</div>
+</div>
+
+<div class="footer">
+    <p>@Copyright &copy 2023 - Socialbook. All rights reserved </p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
